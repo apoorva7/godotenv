@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"fmt"
 	"os"
+	"os/signal"
+	"syscall"
 	"reflect"
 	"strings"
 	"testing"
