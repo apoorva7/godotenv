@@ -19,6 +19,8 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"os/signal"
+	"syscall"
 	"os/exec"
 	"regexp"
 	"sort"
